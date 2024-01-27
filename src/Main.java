@@ -1,3 +1,5 @@
+import java.util.function.LongUnaryOperator;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -8,7 +10,19 @@ public class Main {
         int anoDeLacamento = 2022;
         System.out.println("Ano de Lançamento: " + anoDeLacamento);
         boolean incluidoNoPlano = true;
+        double notaDoFilme = 8.1;
 
+
+        double media = (9.8 + 6.3 + 8.0) / 3;
+        System.out.println(media);
+        String sinopse;
+        sinopse = """
+            Filme Top Gun
+            Filme de aventura com galã dos anos 80"
+            Muito bom!
+            Ano de lançamento
+            """ + anoDeLacamento;
+        System.out.println(sinopse);
 
     }
 }
